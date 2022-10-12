@@ -19,10 +19,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './componentes/experiencias/new-experiencia.component';
-import { RouterModule } from '@angular/router';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler';
-import { RouterOutlet } from '@angular/router';
-import { NO_ERRORS_SCHEMA } from '@angular/compiler';
+
 
 
 @NgModule({
@@ -51,14 +48,11 @@ import { NO_ERRORS_SCHEMA } from '@angular/compiler';
     HttpClientModule,
     FormsModule,
     NgModule,
-    ReactiveFormsModule,
-    RouterModule,
-    RouterOutlet, 
+    ReactiveFormsModule, 
     BrowserAnimationsModule,
 
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA,
-  NO_ERRORS_SCHEMA ],
+
 
   providers: [],
   bootstrap: [AppComponent]
