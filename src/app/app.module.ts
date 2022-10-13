@@ -19,6 +19,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './componentes/experiencias/new-experiencia.component';
+import { RouterOutlet } from '@angular/router';
 
 
 
@@ -39,6 +40,7 @@ import { NewExperienciaComponent } from './componentes/experiencias/new-experien
     LoginComponent,
     NewExperienciaComponent,
     
+    
 
   ],
   imports: [
@@ -47,7 +49,6 @@ import { NewExperienciaComponent } from './componentes/experiencias/new-experien
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     FormsModule,
-    NgModule,
     ReactiveFormsModule, 
     BrowserAnimationsModule,
 
