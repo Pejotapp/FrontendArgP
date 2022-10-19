@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SExperienciaService {
-expURL = 'https://localhost:8080/explab'
+expURL = 'https://localhost:8080/explab/'
 
   constructor(private httpClient: HttpClient) { }
 

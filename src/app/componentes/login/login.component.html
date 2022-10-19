@@ -10,7 +10,7 @@
                 <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                 <p class="text-white-50 mb-5">Por favor, ingrese Usuario y Contraseña</p>
   
-<form ngForm #f (ngSubmit)="onLogin()" novalidate>
+<form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
  
   <div class="form-outline form-white mb-4">
     <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg",[(ngModel)]=nombreUsuario name="nombreUsuario" required />

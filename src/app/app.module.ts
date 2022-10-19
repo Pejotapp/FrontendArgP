@@ -20,6 +20,9 @@ import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './componentes/experiencias/new-experiencia.component';
 import { RouterOutlet } from '@angular/router';
+import { EditExperienciaComponent } from './componentes/experiencias/edit-experiencia.component';
+import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
+import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
 
 
 
@@ -39,6 +42,9 @@ import { RouterOutlet } from '@angular/router';
     HomeComponent,
     LoginComponent,
     NewExperienciaComponent,
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,
     
     
 
