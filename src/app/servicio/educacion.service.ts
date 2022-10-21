@@ -7,7 +7,7 @@ import { Educacion } from '../modelos/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-URL = 'http://localhost:8080/educacion/';
+URL = 'https://backendtestpjp.herokuapp.com/educacion/';
 
 
 

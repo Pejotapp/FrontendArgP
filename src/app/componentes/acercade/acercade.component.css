@@ -9,6 +9,7 @@ div{
 /** Foto de perfil, borde, posicion**/
 
 #fotodeperfil{
+    display:flex;
     width: 291px;
     height: 382px;
     border-radius: 150px;
@@ -16,26 +17,28 @@ div{
     margin-right: 15px;
     
 }
-@media(min-width: 576px){
+
 
  #nombre, #titulo{
     right: 700px;
     
  }
 
+ 
     #fotodeperfil{
-        position: absolute;
+        display:flex;
+        
         box-shadow: 3px 4px 3px black;
-        top: 600px;
+        top: px;
 
     }
-}
 
 @media(max-width: 576px){
     #fotodeperfil{
-        position: absolute;
+        display:flex;
+        
         box-shadow: 3px 4px 3px black;
-        top: 600px;
+        top: 200px;
     }}
 
 /** Nombre, titulo **/
