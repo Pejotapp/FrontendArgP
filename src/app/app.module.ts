@@ -24,6 +24,9 @@ import { EditExperienciaComponent } from './componentes/experiencias/edit-experi
 import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
 import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
 
+import { EditSkillComponent } from './componentes/hardnsoft/edit-skill.component';
+import { NewSkillComponent } from './componentes/hardnsoft/new-skill.component';
+
 
 
 @NgModule({
@@ -45,6 +48,8 @@ import { EditeducacionComponent } from './componentes/educacion/editeducacion.co
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent,
     
     
 
